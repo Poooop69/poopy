@@ -1,0 +1,38 @@
+body {
+	font-family: 'Comic Sans', sans-serif;
+	color: white;
+	text-shadow: 
+		1px 1px 0 black,  
+		2px 2px 0 black,
+		3px 3px 0 black,
+		4px 4px 0 black;
+	-webkit-text-stroke: 0.8px black;
+}
+
+#poopy-container {
+	height: 100vh;
+	background: #978c01;
+}
+
+#poopy-container > div {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	gap: 10px;
+}
+
+#poopy-img {
+	margin: auto;
+}
+
+h1 {
+	font-size: 34px;
+}
+
+p {
+	font-size: 24px;
+}
