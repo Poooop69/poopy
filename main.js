@@ -23,6 +23,7 @@ class ZehefPoopy {
 		this.poopyContainer.style.backgroundSize = 'cover'
 		this.poopyImg.src = "assets/img/zehef-poopy.gif"
 		document.querySelector( 'h1' ).innerText = 'ZEHEF POOPY'
+		document.getElementById( 'poopy-click-notice' ).remove()
 		this.isPoopyZehefed = true
 	}
 
